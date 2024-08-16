@@ -1,5 +1,5 @@
-#ifndef __BIGNUM_H__
-#define __BIGNUM_H__
+#ifndef __TINYBIGNUM_H__
+#define __TINYBIGNUM_H__
 /*
 
 Big number library - arithmetic on multiple-precision unsigned integers.
@@ -118,6 +118,6 @@ void bignum_isqrt(struct bn* a, struct bn* b);             /* Integer square roo
 void bignum_assign(struct bn* dst, struct bn* src);        /* Copy src into dst -- dst := src */
 
 
-#endif /* #ifndef __BIGNUM_H__ */
+#endif /* #ifndef __TINYBIGNUM_H__ */
 
 
